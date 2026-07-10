@@ -30,3 +30,8 @@ htmlcov/
 
 # Cloned repos (contribution targets)
 distreqx/
+command-line-chess/
+sunfish/
+
+# Blog posts (kept locally, not in public repo)
+blog-post-*.md
