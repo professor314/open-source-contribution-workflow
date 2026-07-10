@@ -55,6 +55,34 @@ Before submitting to a new repo for the first time, draft a courtesy comment on 
 - Makes you look like a collaborator, not a bot
 - Configurable: always comment first, or only for medium+ difficulty
 
+## 7. Code of Conduct Compliance (Priority: High)
+
+Check repos for a CODE_OF_CONDUCT.md and summarize key rules before contributing.
+
+- Parse and flag any rules that affect contribution behavior
+- Ensure our workflow respects stated community norms
+- If a repo has strict conduct rules (e.g., "no unsolicited PRs"), warn the user before proceeding
+
+## 8. Contributing Guidelines Adherence (Priority: High)
+
+Automatically parse and enforce CONTRIBUTING.md requirements.
+
+- Detect if they require opening an issue first before PRs
+- Detect branch naming conventions different from ours
+- Detect required PR template fields and ensure we fill them all
+- Detect testing requirements (e.g., "run tox", "all tests must pass")
+- Detect commit message conventions different from conventional commits
+- If the repo says "comment on the issue to claim it first," do that before working
+
+## 9. Stale Issue Detection (Priority: Medium)
+
+Before working on an issue, check if it's actually still relevant.
+
+- Check issue age — if >1 year old and no recent comments, it might be stale
+- Check if someone else already has an open PR for it
+- Check if the code referenced in the issue still exists
+- If the repo's last commit is older than our activity filter, warn the user
+
 ---
 
 ## Implementation Notes
