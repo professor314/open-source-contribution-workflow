@@ -1,0 +1,49 @@
+{
+  "user_level": "beginner",
+  "contributions": [
+    {
+      "id": "contrib-001",
+      "repo_full_name": "lockwo/distreqx",
+      "contribution_type": "documentation",
+      "difficulty_level": "easy",
+      "branch_name": "docs/improve-homepage",
+      "pr_url": "https://github.com/lockwo/distreqx/pull/99",
+      "pr_number": 99,
+      "pr_status": "open",
+      "commit_sha": "5cadd69",
+      "modified_files": ["docs/index.md"],
+      "code_snippet": "## Why distreqx?\n\n- **Pure JAX** — No TensorFlow dependency.\n- **Equinox-based** — Distributions and bijectors are pytrees.",
+      "started_at": "2026-07-09T18:00:00Z",
+      "completed_at": "2026-07-09T18:30:00Z"
+    }
+  ],
+  "level_counts": {
+    "easy": 1,
+    "medium": 0,
+    "hard": 0
+  },
+  "interest_areas": [
+    "math",
+    "statistics",
+    "probability",
+    "data science",
+    "pytorch",
+    "scipy",
+    "obsidian",
+    "aws",
+    "go game",
+    "chess",
+    "bicycles",
+    "electronics",
+    "assembly",
+    "retro computing",
+    "education",
+    "learning tools",
+    "game development",
+    "blender",
+    "MCP servers",
+    "AI",
+    "raspberry pi"
+  ],
+  "last_updated": "2026-07-09T18:30:00Z"
+}
