@@ -55,7 +55,7 @@ python -m pytest tests/ -v
 │   ├── models.py                 # Data models (CandidateRepo, ContributionRecord, etc.)
 │   ├── state.py                  # JSON state management (load/save tracker)
 │   ├── scoring.py                # Composite scoring for repo ranking
-│   ├── filtering.py              # Candidate filtering (labels + keywords)
+│   ├── filtering.py              # Candidate filtering (labels + keywords + activity)
 │   ├── classification.py         # Difficulty classification (easy/medium/hard)
 │   ├── naming.py                 # Branch name generation and validation
 │   ├── commit_format.py          # Conventional commit message generation/validation
@@ -66,11 +66,16 @@ python -m pytest tests/ -v
 │   ├── contributing_summary.py   # CONTRIBUTING.md summarization
 │   ├── linter_detection.py       # Linter config detection
 │   ├── blog_generator.py         # Blog post generation
-│   └── steering_generator.py     # Kiro steering document generation
+│   ├── steering_generator.py     # Kiro steering document generation
+│   ├── pr_monitor.py             # PR status monitoring (merged/closed/waiting/CI)
+│   ├── review_helper.py          # Review feedback reader and response helper
+│   ├── dashboard.py              # Contribution stats dashboard generator
+│   └── bookmarks.py              # Repo bookmarking for contribution backlog
 ├── tests/
 │   ├── unit/                     # Unit tests
 │   └── property/                 # Property-based tests (Hypothesis)
 ├── .kiro/specs/                  # Spec documents (requirements, design, tasks)
+├── FUTURE_FEATURES.md            # Roadmap for v2 features
 ├── requirements.txt              # Python dependencies
 ├── LICENSE                       # MIT License
 └── README.md                     # This file
